@@ -1,0 +1,10 @@
+Vegetable Leaf Classification Using CNN and Transfer Learning
+This project focuses on developing an automated vegetable leaf classification system using deep learning. The goal is to accurately identify six types of leafy vegetables—cabbage, lettuce, mustard greens, radish leaves, red amaranth, and spinach—from images. A custom dataset of 606 images was cleaned, inspected for corruption, structured properly, and preprocessed through resizing, normalization, and augmentation .To build a reliable model, three approaches were used: a simple baseline CNN, InceptionV3, and ResNet50 transfer learning models. Each model was trained and evaluated using Google Colab GPU, with careful tuning of hyperparameters such as learning rate, batch size, and number of epochs. Evaluation metrics included accuracy, loss, and confusion matrices .The final results showed that transfer learning significantly improved performance, with ResNet50 achieving the best accuracy. This project demonstrates how deep learning can be applied effectively in agricultural automation, offering a fast and consistent method for recognizing vegetable leaves.
+
+Final Project Submission Checklist :
+Final Report
+Code Files: ( .ipynb )
+Best_Model.h5
+Video Presentation
+Dataset Zip Folder -https://data.mendeley.com/datasets/9c7crxrvmf/1
+
